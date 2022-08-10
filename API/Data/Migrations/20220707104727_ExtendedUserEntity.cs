@@ -129,7 +129,7 @@ namespace API.Data.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "Intrests",
+                name: "Interests",
                 table: "Users");
 
             migrationBuilder.DropColumn(
