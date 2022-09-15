@@ -30,7 +30,7 @@ export class MemberListComponent implements OnInit {
   }
 
   loadMembers() {
-    console.log(this.userParams.pageNumber);
+    console.log(this.userParams.gender);
     
     this.memberService.setUserParams(this.userParams)
     this.memberService.getMembers(this.userParams).subscribe({
